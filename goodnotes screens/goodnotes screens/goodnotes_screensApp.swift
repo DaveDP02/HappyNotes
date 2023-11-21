@@ -12,7 +12,7 @@ struct goodnotes_screensApp: App {
     var body: some Scene {
         WindowGroup {
             TabView(){
-                ContentView().tabItem { Label("Documents", systemImage: "doc.fill")}
+                ContentView().tabItem { Label("Dcuments", systemImage: "doc.fill")}
                 Searchview().tabItem { Label("Search", systemImage: "magnifyingglass")}
                 Sharedview().tabItem {
                     Label("Shared", systemImage: "person.3.fill")}
